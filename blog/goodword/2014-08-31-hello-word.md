@@ -6,7 +6,7 @@ date: 17.11.26
 theme: goodword
 meta: blog
 comments: true
-layout: default
+layout: post
 ---
 
 더러운돈은 정신을 파괴한다 - 사유리
