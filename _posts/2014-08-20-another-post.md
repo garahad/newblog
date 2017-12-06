@@ -1,8 +1,41 @@
 ---
-title: Lorem Ipsum Dolor Sit Amet
-featured: /assets/images/pic03.jpg
+title: 워렌버핏의 1가지 조언 
+day: 17.11.26
+date: 17.11.26
+theme: goodword
+meta: blog
 layout: post
 ---
 
-<p>Reprehenderit in voluptate velit esse cillum non proident, sunt in culpa qui officia  sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-<p>Duis aute irure dolor in reprehenderit in voluptate reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia . Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+버핏의 전용기사 " 플린트 " 라는 사람이 있었어
+플린트는 자신의 직업덕분에 세계 최고의 부자와 어렵지 않게 대화를 할 수 있었지.
+
+참고로 
+워렌버핏과 점심 한끼 먹으려고 경매가 "20억원"에 낙찰된적이 3번있다는걸 명심하길 바래.
+
+어느날 전용기사 "플린트"는 
+목표에 대해 버핏과 이야기를 하고있었어
+
+버핏: " 자네의 목표가 무엇인가? 
+현재 가장 중요한 목표 25가지를 노트에 적어보게"
+
+플린트는 수분동안 고민한 끝에 목표 25가지를 적었어.
+
+버핏: " 25가지 목표를 다 적었으면 
+그 중에서도 가장 중요한 목표 1가지에 동그라미 쳐보게나 "
+
+플린트는 곧바로 중요한 1가지 목표에 동그라미 쳤어.
+
+버핏: 그럼 나머지 24가지 목표들은 어떻게 할 것인가?
+
+플린트: 제가 동그라미친 1가지 목표야 말로 제가 집중해야 될 부분이며, 대부분 시간을 투자하겠습니다.
+하지만 나머지 24가지 목표도 놓칠수 없으니 시간이 날때마다 틈틈히 노력해서 이루어야 겠죠.
+
+
+버핏: " 아닐세 그게 아니야 자네는 지금 멍청한 실수를 하고있는 거야 "
+자네가 가장 중요하다고 생각하는 1가지 목표외에 나머지 24가지 목표들에 대해서는 
+절대로 어떤 관심도 노력도 기울여서는 안된다네.
+
+자네가 정말로 목표를 이루고 싶다면 1가지 목표에만 집중하게. 

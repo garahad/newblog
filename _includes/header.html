@@ -37,13 +37,13 @@
 							{% assign current = page.url | downcase | split: '/' %}
 							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">홈</a></li>
 							<li>
-								<a href="#">일상생각</a>
+								<a href="{{ site.baseurl }}/blog">일상생각</a>
 								<ul>
-									<li><a href="#">좋은 글들</a></li>
-									<li><a href="#">깨달음</a></li>
-									<li><a href="#">독서 감상</a></li>
+									<li><a href="{{ site.baseurl }}/blog/goodword">좋은 글들</a></li>
+									<li><a href="{{ site.baseurl }}/blog/find">깨달음</a></li>
+									<li><a href="{{ site.baseurl }}/blog/read">독서 감상</a></li>
 									<li>
-										<a href="">연애 생각</a>
+										<a href="{{ site.baseurl }}/blog/love">연애 생각</a>
 										<ul>
 											<li><a href="#">외모</a></li>
 											<li><a href="#">마인드셋</a></li>
@@ -56,10 +56,54 @@
 									<li><a href="#">인성</a></li>
 								</ul>
 							</li>
-							<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">운동</a></li>
-							<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">생산성</a></li>
-							<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">투자</a></li>
-							<li {% if current[1] == 'left-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">메뉴</a></li>
+							<li>
+								<a href="{{ site.baseurl }}/blog">운동</a>
+								<ul>
+									<li><a href="#">동기부여</a></li>
+									<li><a href="#">식단</a></li>
+									<li><a href="#">근력외 운동</a></li>
+									<li>
+										<a href="">부위별 운동법</a>
+										<ul>
+											<li><a href="#">가슴</a></li>
+											<li><a href="#">등</a></li>
+											<li><a href="#">어깨</a></li>
+											<li><a href="#">팔</a></li>
+											<li><a href="#">하체</a></li>
+											<li><a href="#">코어</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="{{ site.baseurl }}/blog">생산성</a>
+								<ul>
+									<li><a href="#">공부법</a></li>
+									<li><a href="#">좋은 앱</a></li>
+									<li><a href="#">깨달음</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="{{ site.baseurl }}/blog">주식 투자</a>
+								<ul>
+									<li><a href="#">투자 격언</a></li>
+									<li><a href="#">독서 감상</a></li>
+									<li><a href="#">투자 깨달은 점들</a></li>
+									<li>
+										<a href="">기업 분석</a>
+										<ul>
+											<li><a href="#">구글</a></li>
+											<li><a href="#">페이스북</a></li>
+											<li><a href="#">아마존</a></li>
+											<li><a href="#">뷰웍스</a></li>
+											<li><a href="#">대한약품</a></li>
+											<li><a href="#">미국국채</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<!-- 
+							<li {% if current[1] == 'left-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">메뉴</a></li> -->
 						</ul>
 					</nav>
 

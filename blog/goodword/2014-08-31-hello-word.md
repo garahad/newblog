@@ -2,8 +2,10 @@
 title: 사유리 명언
 featured: /assets/images/pic01.jpg
 day: 16.2.13
+date: 17.11.26
 theme: goodword
 meta: blog
+comments: true
 layout: default
 ---
 

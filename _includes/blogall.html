@@ -1,0 +1,32 @@
+<ul>
+  {% for post in site.pages and offset: 0 limit: 100 %}
+    {% if post.meta == include.meta %}
+
+		<div class="row">
+
+			<section class="12u">
+				<div class="box post">
+
+					<div class="inner">
+
+					<li>
+						<a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }}</a>
+						{{ post.day }}
+					</li>
+
+						<footer>
+							
+
+
+						</footer>
+					</div>
+				</div>
+
+			</section>
+		</div>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
+								
