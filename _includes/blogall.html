@@ -1,5 +1,5 @@
 <ul>
-  {% for post in site.pages and offset: 0 limit: 100 %}
+  {% for post in site.posts and offset: 0 limit: 1000 %}
     {% if post.meta == include.meta %}
 
 		<div class="row">
@@ -11,12 +11,9 @@
 						{{ post.day }}
 					</li>
 
-			<!-- 		{% if page.comments %} • <a href="https://garahad.github.io{{ site.baseurl }}{{ post.url }}#disqus_thread">0 Comments</a>{% endif %} -->
+					{% if page.comments %} • <a href="https://garahad.github.io{{ site.baseurl }}{{ post.url }}#disqus_thread">0 Comments</a>{% endif %}
 
 						<footer>
-
-
-
 						</footer>
 					</div>
 				</div>
@@ -27,5 +24,3 @@
   {% endfor %}
 </ul>
 
-
-								
