@@ -10,12 +10,13 @@
 					<div class="inner">
 
 					<li>
-						<a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }}</a>
+						<a href="{{ site.baseurl }}{{ post.url }}"#disqus_thread> {{ post.title }}</a>
 						{{ post.day }}
+						{% if page.comments %} • <a href="https://newblog.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
 					</li>
 
 						<footer>
-							
+
 
 
 						</footer>
