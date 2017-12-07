@@ -805,10 +805,9 @@
 					color: #53504e !important;
 				}
 		.wrapper.style4 {
-			background: #f8e9cc; 
+/*			background: #f8e9cc; */
 			background-image: url("images/pyun.jpg");
 			background-size: cover; 
-			background-blend-mode: saturation;
 		}
 
 /* CTA */
