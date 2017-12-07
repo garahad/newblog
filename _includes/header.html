@@ -37,26 +37,6 @@
 							{% assign current = page.url | downcase | split: '/' %}
 							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">홈</a></li>
 							<li>
-								<a href="{{ site.baseurl }}/blog">일상생각</a>
-								<ul>
-									<li><a href="{{ site.baseurl }}/blog/goodword">좋은 글들</a></li>
-									<li><a href="{{ site.baseurl }}/blog/find">깨달음</a></li>
-									<li><a href="{{ site.baseurl }}/blog/read">독서 감상</a></li>
-									<li>
-										<a href="{{ site.baseurl }}/blog/love">연애 생각</a>
-										<ul>
-											<li><a href="#">외모</a></li>
-											<li><a href="#">마인드셋</a></li>
-											<li><a href="#">비언어</a></li>
-											<li><a href="#">캐릭터</a></li>
-											<li><a href="#">화술</a></li>
-											<li><a href="#">이성관</a></li>
-										</ul>
-									</li>
-									<li><a href="#">인성</a></li>
-								</ul>
-							</li>
-							<li>
 								<a href="{{ site.baseurl }}/blog">운동</a>
 								<ul>
 									<li><a href="#">동기부여</a></li>
@@ -75,16 +55,9 @@
 									</li>
 								</ul>
 							</li>
+
 							<li>
-								<a href="{{ site.baseurl }}/blog">생산성</a>
-								<ul>
-									<li><a href="#">공부법</a></li>
-									<li><a href="#">좋은 앱</a></li>
-									<li><a href="#">깨달음</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="{{ site.baseurl }}/blog">주식 투자</a>
+								<a href="{{ site.baseurl }}/blog"> 투자</a>
 								<ul>
 									<li><a href="#">투자 격언</a></li>
 									<li><a href="#">독서 감상</a></li>
@@ -100,6 +73,34 @@
 											<li><a href="#">미국국채</a></li>
 										</ul>
 									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="{{ site.baseurl }}/blog">생산성</a>
+								<ul>
+									<li><a href="#">공부법</a></li>
+									<li><a href="#">좋은 앱</a></li>
+									<li><a href="#">깨달음</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="{{ site.baseurl }}/blog">자기계발</a>
+								<ul>
+									<li><a href="{{ site.baseurl }}/blog/goodword">좋은 글들</a></li>
+									<li><a href="{{ site.baseurl }}/blog/find">깨달음</a></li>
+									<li><a href="{{ site.baseurl }}/blog/read">독서 감상</a></li>
+									<li>
+										<a href="{{ site.baseurl }}/blog/love">연애 생각</a>
+										<ul>
+											<li><a href="#">외모</a></li>
+											<li><a href="#">마인드셋</a></li>
+											<li><a href="#">비언어</a></li>
+											<li><a href="#">캐릭터</a></li>
+											<li><a href="#">화술</a></li>
+											<li><a href="#">이성관</a></li>
+										</ul>
+									</li>
+									<li><a href="#">인성</a></li>
 								</ul>
 							</li>
 							<!-- 

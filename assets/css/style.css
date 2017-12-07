@@ -11,8 +11,9 @@
 
 	body,
 	#skel-layers-wrapper {
-		background: #f7f7f7 url("images/bg01.png");
-	}
+		background: #13181b/*f7f7f7*/ /*url("images/bg01.png")*/;
+	} 
+	/*제일밑줄 footer색 */
 
 	body.is-loading * {
 		-moz-transition: none !important;
@@ -633,7 +634,7 @@
 			}
 
 				#nav > ul > li a {
-					color: #c0c0c0;
+					color: /*#fff*/ #c0c0c0;
 					text-decoration: none;
 					border: 0;
 					display: block;
@@ -774,15 +775,15 @@
 	}
 
 		.wrapper.style1 {
-			background: #fff;
+			background: #dee9f1;
 		}
 
 		.wrapper.style2 {
-			background-color: #dee9f1;
-			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
+			background-color: #fff;
+/*			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
 			background-position: top left,						bottom left,					top left;
 			background-size: 100% 6em,						100% 6em,						auto;
-			background-repeat: no-repeat,						no-repeat,						repeat;
+			background-repeat: no-repeat,						no-repeat,			*/			repeat;
 		}
 
 		.wrapper.style3 {
@@ -803,6 +804,12 @@
 				.wrapper.style3 .button:hover {
 					color: #53504e !important;
 				}
+		.wrapper.style4 {
+			background: #f8e9cc; 
+			background-image: url("images/pyun.jpg");
+			background-size: cover; 
+			background-blend-mode: saturation;
+		}
 
 /* CTA */
 
