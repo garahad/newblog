@@ -43,14 +43,23 @@ layout: default
 	<section class="wrapper style2">
 		<div class="container">
 			<header class="major">
-				<h2>안녕하세요</h2>
-				<p>garahad라고 합니다 </p>
+				<h3 class="recent">최신글들 </h3>
+				<br>
+				{% include recent.html meta= 'blog' %}
 			</header>
+		</div>
+	</section>
+	<section class="wrapper style1">
+		<div class="container">
+				<h3 >안녕하세요 garahad입니다 </h3>
+				<p></p>
+				<p>제 일상을 정리하기 위한 블로그를 오픈하였습니다
+				내용상 틀린점이 있다면 언제든 코멘트 해주세요</p>
 		</div>
 	</section>
 
 <!-- Posts -->
-	<section class="wrapper style1">
+<!-- 	<section class="wrapper style1">
 		<div class="container">
 			<div class="row">
 				<section class="6u">
@@ -94,5 +103,5 @@ layout: default
 			</div>
 		</div>
 	</section>
-	
+ -->	
 	{% include cta.html %}

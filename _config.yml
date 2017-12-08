@@ -1,6 +1,6 @@
 name: Arcana
 description: Arcana template for Jekyll
-paginate: 5
-gems:
-  - jekyll-paginate
+# paginate: 5
+# gems:
+#   - jekyll-paginate
 baseurl: /newblog
