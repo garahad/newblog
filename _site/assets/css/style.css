@@ -43,7 +43,6 @@
 		line-height: 1.65em;
 	}
 
-
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
@@ -71,6 +70,15 @@
 		a:visited {
 			color: gray;
 		}
+		a.icon
+		{
+			border-bottom: transparent;
+			z-index: 100;
+
+		}
+		a.icon:hover {
+			color: #474747;
+				}
 
 	strong, b {
 		font-weight: 600;
@@ -87,6 +95,17 @@
 		color: #313d3d;
 		font-weight: 400;
 	}
+
+	div.icons{
+		position:fixed;
+		top:2rem;
+		right:1rem;
+		font-size: 1.8rem;
+		border-bottom: 0px ;
+	}
+
+
+/*search창 설정 */
 
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
